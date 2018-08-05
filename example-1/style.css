@@ -14,8 +14,38 @@ body{
 }
 
 /* menu base styles */
+nav {
+    background: #333;
+}
 
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
 
+nav a {
+    text-decoration: none;
+    /* text-align: center; */
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
 
 
 /* flex styles */
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        /* we can adjust the value of the justify-content , to see the effect on the screen;  */
+        justify-content: flex-start;
+    }
+
+    nav-li {
+        flex: 1;
+    }
+}

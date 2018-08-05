@@ -58,3 +58,9 @@ what we want do is when there's available room left in the container , I want ea
 we can think of these growth rates a bit columns on a grid. to image bootstrap grid and it has 12 columns , so we've got 12 columns to play with . We could use this flex-grow property , as a way of defining how many columns we want an element to take up , so we've got 12 to play with in total ;
 
 Above is how flex-grow works , we use it to expand elements into available space and the rate at which it expands into that available space is governed by the flex-grow value , so it's all relative to other elements next to it ;
+
+3. flex item's order
+
+> we can use the order of the flex item style property ; 
+
+That is really cool , because we've not had to change the source order at all 。 in the source that html file,  everything is still in the same order, but just  in the css with one property , we've changed the order of how the items like what we want 
